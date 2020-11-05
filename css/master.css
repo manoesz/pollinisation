@@ -1,0 +1,239 @@
+
+@import url('https://fonts.googleapis.com/css?family=Bowlby+One+SC&display=swap');
+
+@import url('https://fonts.googleapis.com/css?family=Bree+Serif&display=swap');
+
+
+body{
+
+}
+
+
+.navigation {
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+  font-size: 15px;
+  background: #D99748;
+  color: #035951;
+  font-family: 'Bowlby One SC', cursive;
+  margin: 0;
+  padding: 2px ;
+  list-style: none ;
+  text-align: center ;
+  text-decoration: none;
+}
+
+.navigation : hover {
+color: black;
+}
+
+.navigation li {
+  flex-basis: 8em;
+  padding: 1em;
+
+}
+
+.header-content {
+  animation-duration: 2s;
+  animation-name: appearIn;
+}
+
+
+.navigation2 {
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+  font-size: 15px;
+  background: #035951;
+  color: #D99748;
+  font-family: 'Bowlby One SC', cursive;
+  margin: 0;
+  padding: 10px ;
+  list-style: none ;
+  text-align: center ;
+}
+
+.navigation2 li {
+  flex-basis: 8em;
+  padding: 1em;
+
+}
+
+
+header {
+  min-height: 70vh;
+  padding: 5em;
+  font-size: 40px;
+  text-align: center;
+  font-family: 'Bowlby One SC', cursive;
+  background: #debab1 url('images/ab.jpg') top  center no-repeat;
+  background-attachment: fixed;
+  flex-basis: 420px;
+  flex-shrink: 1;
+  flex-grow: 1;
+  margin: 6px;
+  background-size: cover;
+  display: flex;
+  color:#D99748;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.moral{
+  border: 2px solid orange;
+  border-radius: 4px;
+  padding: 4px;
+}
+
+
+section{
+  min-high: 80vh;
+}
+
+.content{
+  max-width: 840px;
+}
+
+img{
+	width: 80px;
+	height: 80px;
+  /*justify-content: right;
+  display: flex;*/
+  margin-right: 15px;
+  padding-right: 20px;
+}
+
+#pollinisation01 {
+  padding: 20px;
+  background: #D99748;
+  background-size: cover;
+  display: flex;
+/*  align-items: right;
+  justify-content: right; */
+  color: #035951;
+  font-family: 'Bree Serif', serif;
+  font-weight: 900;
+  font-size: 20px;
+
+;
+}
+
+#pollinisation01 h1{
+  font-size: 70px;
+}
+
+#pollinisation02 {
+  min-height: 70vh;
+  padding: 25px;
+  background: #debab1 url('images/abeille1.jpg') top  center no-repeat;
+  background-attachment: fixed;
+  flex-basis: 420px;
+  flex-shrink: 1;
+  flex-grow: 1;
+  margin: 6px;
+  font-family: 'Bree Serif', serif;
+  font-size: 20px;
+  background-size: cover;
+  display: flex;
+  color: #D99748;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#pollinisation02 h1{
+  font-size: 70px;
+}
+
+
+#pollinisation03{
+  padding: 30px;
+  background: #035951;
+  background-size: cover;
+  display: flex;
+  align-items: left;
+  justify-content: flex-end;
+  color: #D99748;
+  font-family: 'Bree Serif', serif;
+  font-size: 20px;
+}
+
+#pollinisation03 h1{
+  font-size: 70px;
+}
+
+
+
+#pollinisation04 {
+  min-height: 70vh;
+  padding: 25px;
+  background: #debab1 url('images/abeille1.jpg') top  center no-repeat;
+  background-attachment: fixed;
+  flex-basis: 420px;
+  flex-shrink: 1;
+  flex-grow: 1;
+  margin: 6px;
+  font-family: 'Bree Serif', serif;
+  font-size: 20px;
+  background-size: cover;
+  display: flex;
+  color: #e8e4ed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#pollinisation04 h1{
+  font-size: 70px;
+}
+
+
+#pollinisation05 {
+  padding: 20px;
+  background: #D99748;
+  background-size: cover;
+  display: flex;
+/*  align-items: right;
+  justify-content: right; */
+  color: #035951;
+  font-family: 'Bree Serif', serif;
+  font-weight: 900;
+  font-size: 20px;
+;
+}
+
+#pollinisation05 h1{
+  font-size: 70px;
+}
+
+
+#video{
+  padding: 30px;
+  background: #035951;
+  background-size: cover;
+  display: flex;
+  align-items: left;
+  justify-content: flex-end;
+  color: #D99748;
+  font-family: 'Bree Serif', serif;
+  font-size: 20px;
+}
+
+#video h1{
+  font-size: 70px;
+}
+
+.navigation2 {
+  font-size: 15px;
+  background: #D99748;
+  color: #035951;
+  font-family: 'Bowlby One SC', cursive;
+  text-decoration: none;
+
+}
+#navigation li {
+  display: inline;
+}
